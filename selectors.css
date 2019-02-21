@@ -6,7 +6,6 @@
 ul li {
     color: tomato;
 }
-
 /* Remove the text decoration from navigation links, and change their color when hovered */
 nav a:links {
     text-decoration: none;
@@ -14,11 +13,14 @@ nav a:links {
 nav a:hover {
     color: tomato;
 }
-
 /* Create visited and hover styles for all links inside 'main' */
-
-
-
+main a:hover {
+    color: pink;
+    text-decoration: none;
+}
+main a:visited {
+    color: green;
+}
 /* 
  Change the background color of the submit button when active.
  Check teacher's notes for resources on this part of the challenge. */
