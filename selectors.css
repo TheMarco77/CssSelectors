@@ -25,13 +25,10 @@ main a:visited {
 input[type="submit"]:active {
     background-color: pink;
 }
-
-
-/* Give the text field a blue border upon focus.
-   Check teacher's notes for resources on this part of the challenge. */
-
-
-
+/* Give the text field a blue border upon focus. */
+input[type="text"]:active {
+    border: 1px solid blue;
+}
 /* Give the 'span' tag in the footer a meaningful class name and reduce its font size */
 
 
