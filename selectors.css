@@ -7,10 +7,13 @@ ul li {
     color: tomato;
 }
 
-
 /* Remove the text decoration from navigation links, and change their color when hovered */
-
-
+nav a:links {
+    text-decoration: none;
+}
+nav a:hover {
+    color: tomato;
+}
 
 /* Create visited and hover styles for all links inside 'main' */
 
