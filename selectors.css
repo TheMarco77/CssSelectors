@@ -21,10 +21,10 @@ main a:hover {
 main a:visited {
     color: green;
 }
-/* 
- Change the background color of the submit button when active.
- Check teacher's notes for resources on this part of the challenge. */
-
+/* Change the background color of the submit button when active. */
+input[type="submit"]:active {
+    background-color: pink;
+}
 
 
 /* Give the text field a blue border upon focus.
